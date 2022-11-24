@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+ <header>
+  <h1>CADASTRO BÁSICO
+  <input type="image" src="https://i.pinimg.com/originals/64/d2/b1/64d2b1c4242fc4751c05006d16a0f877.jpg" alt="submit" width="38" height="38">
+</h1>
+</header><br>
+
+ <h2>Digite suas Informações</h2>
+  <form action="cadastro.php">
+    <label for="inome">Usuário:</label>
+    <input type="text" name="nome" id="inome"><br><br>
+    <label for="isobrenome">Email:</label><input type="text" name="sobrenome" id="isobrenome"><br><br>
+    <label for="isenha">Senha:</label><input type="password" name="senha" id="isenha"><br><br>
+    <label for="isenha">Mostrar Senha:</label><input type="checkbox" name="senha" id="isenha" onclick="mostrarOcultarSenha()">
+
+    <script type="text/javascript" src="scripts.js"></script><br><br>
+  </form>
+
+   
+
+      <h2>Marque qual prefere para fazer uma viagem</h2>
+      <form action="/action_page.php">
+          <input type="radio" id="carro" name="fav_transport" value="Carro">
+          <label for="carro">CARRO</label><br>
+          <input type="radio" id="avião" name="fav_transport" value="Avião">
+          <label for="avião">AVIÃO</label><br>
+          <input type="radio" id="ônibus" name="fav_transport" value="Ônibus">
+          <label for="javascript">ÔNIBUS</label><br><br>
+          <input type="image" src="https://cdn-icons-png.flaticon.com/512/7604/7604726.png" alt="submit" width="38" height="38">
+      </form>
+
+</body>
+</html>
